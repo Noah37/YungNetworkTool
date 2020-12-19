@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/2252055382@qq.com/YungNetworkTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '2252055382@qq.com' => 'caonongyun@guazi.com' }
+  s.author           = { '2252055382@qq.com' => 'yung' }
   s.source           = { :git => 'https://github.com/2252055382@qq.com/YungNetworkTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
