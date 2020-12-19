@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.9.1)
+  - YungNetworkTool (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - YungNetworkTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  YungNetworkTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  YungNetworkTool: 59a7e53a4e953499f53e151cbf2c04f985e590a1
+
+PODFILE CHECKSUM: bc55edb51e6193223c35105e6c5a802eaa07d23d
+
+COCOAPODS: 1.10.0

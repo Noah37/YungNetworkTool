@@ -1,0 +1,6 @@
+framework module YungNetworkTool {
+  umbrella header "YungNetworkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

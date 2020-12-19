@@ -1,0 +1,27 @@
+{
+  "name": "YungNetworkTool",
+  "version": "0.1.0",
+  "summary": "A short description of YungNetworkTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2252055382@qq.com/YungNetworkTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2252055382@qq.com": "caonongyun@guazi.com"
+  },
+  "source": {
+    "git": "https://github.com/2252055382@qq.com/YungNetworkTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YungNetworkTool/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}

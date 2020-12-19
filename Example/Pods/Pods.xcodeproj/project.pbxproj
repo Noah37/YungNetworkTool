@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02692DFEB0B66829861CE2E321EAA0E2 /* Pods-YungNetworkTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D154FACF7BB6CDA48BE5B8A6E48A79F /* Pods-YungNetworkTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */; };
+		0D10EFC660E6326F643762D537D23B52 /* Pods-YungNetworkTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D10C471312722856A8EB47F6BE254C9 /* Pods-YungNetworkTool_Tests-dummy.m */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */; };
+		23FB27CDA8862DF1438EA3D38BDB1A10 /* YungNetworkTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C90FFBBE908B37EB2EA7760CEC58AB4D /* YungNetworkTool-dummy.m */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */; };
+		3BB05A5B39A901C8258D8E90B8816D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */; };
+		8372EE696AB5627A70CE9B4FFCFA6C6F /* YungNetworkTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8AE59AF546A4EAE8996FC6485E67B3 /* YungNetworkTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63F367F44FC87833A1792B541781BB7 /* AFError.swift */; };
+		85668BB2BDDD11ADFC4DE4E9EA0FAEE9 /* Pods-YungNetworkTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E654A928C729789A5D9915741D404A /* Pods-YungNetworkTool_Example-dummy.m */; };
+		8A4D0C1DEA30A952CBE4A063812C1CE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3F4F1011789493720361780A1982D /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */; };
+		9B76CA540045F834330B0F5D8503FC82 /* Pods-YungNetworkTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF9D929D8D4C198D996A1CCE4A159D5 /* Pods-YungNetworkTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DAC308F41FA519D23524CFC7774BC29 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */; };
+		CC9ACF34CCAA867927BF8F0FADBDD809 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BF6CF1A325FEE5AB571BB3F6147671 /* Task.swift */; };
+		D35D5321D1C81FF441855E8B370224D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FF2ED29A6CE3D11C04CA76E3A3253E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E6A4B1FFE9297DA3BF236D2192F5889;
+			remoteInfo = YungNetworkTool;
+		};
+		727265A16A9F6558E7549FB2A1DB7B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327F6A6CD646809033E7F38B6D8F0808;
+			remoteInfo = "Pods-YungNetworkTool_Example";
+		};
+		8103190196D8960F20F76E33F8886D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		F72EAE89C4E65597192E724AFD1954ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		0C8140509266FADAF55D890AE05FABE5 /* Pods-YungNetworkTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungNetworkTool_Example-Info.plist"; sourceTree = "<group>"; };
+		0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		0CF9D929D8D4C198D996A1CCE4A159D5 /* Pods-YungNetworkTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YungNetworkTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		0D10C471312722856A8EB47F6BE254C9 /* Pods-YungNetworkTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YungNetworkTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		135C49340BA8B8051D48A2D6B61FE135 /* Pods-YungNetworkTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YungNetworkTool_Tests.modulemap"; sourceTree = "<group>"; };
+		1D154FACF7BB6CDA48BE5B8A6E48A79F /* Pods-YungNetworkTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YungNetworkTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2051260D20A37FA861CEB840BFBFDED2 /* Pods_YungNetworkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YungNetworkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A75C90E113A30D79882DDC2B1168B7E /* YungNetworkTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YungNetworkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3D92E2A0302FBC05564BA8A2E3C9A2DF /* YungNetworkTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YungNetworkTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		48A57690C9924FE2D4CC4EBC6C68630C /* Pods-YungNetworkTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YungNetworkTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A69CF34CAB2118BFB329541AA224F42 /* Pods-YungNetworkTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungNetworkTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8AE59AF546A4EAE8996FC6485E67B3 /* YungNetworkTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungNetworkTool-umbrella.h"; sourceTree = "<group>"; };
+		4C5778D67EA0DDD70D7C58807F1E1814 /* Pods-YungNetworkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungNetworkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		52D10C388D7CF65004ED7D3CAA288372 /* Pods-YungNetworkTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungNetworkTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7BE21ABBB39A3DBA46E35B04F6B3F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		5ED0B2F4E345DF4EA2DEE9116138E1D7 /* YungNetworkTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YungNetworkTool.modulemap; sourceTree = "<group>"; };
+		5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		600326E55F8B67FE7046C45D672C10D7 /* Pods_YungNetworkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YungNetworkTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		6325829207E0962FA064ED48EC035BED /* Pods-YungNetworkTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungNetworkTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C6ECFE33A1DA30B7E7D4535C217258E /* Pods-YungNetworkTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YungNetworkTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		81E654A928C729789A5D9915741D404A /* Pods-YungNetworkTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YungNetworkTool_Example-dummy.m"; sourceTree = "<group>"; };
+		85AF69E8609EA8DA2BCF4AAA652CD8AC /* YungNetworkTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YungNetworkTool-Info.plist"; sourceTree = "<group>"; };
+		85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8CC4891F3A914FD46705368B86FA1FD8 /* Pods-YungNetworkTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YungNetworkTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		98D3F4F1011789493720361780A1982D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		AABEF72C6538D983D6EB3CC3B32B95FA /* Pods-YungNetworkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungNetworkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		B0BF6CF1A325FEE5AB571BB3F6147671 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = YungNetworkTool/Classes/Task.swift; sourceTree = "<group>"; };
+		B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		BDA21A1CC8D40C1FA5A76399445658F5 /* YungNetworkTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungNetworkTool.release.xcconfig; sourceTree = "<group>"; };
+		BEFC95DCC9087D8884FD052F69094DA9 /* Pods-YungNetworkTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YungNetworkTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B193BEAB5387A17CC1F2CFEB87DE7B /* Pods-YungNetworkTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YungNetworkTool_Example.modulemap"; sourceTree = "<group>"; };
+		C90FFBBE908B37EB2EA7760CEC58AB4D /* YungNetworkTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YungNetworkTool-dummy.m"; sourceTree = "<group>"; };
+		CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD816AF241A64C049B37B1F8E1E0653A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DBAC9BA1B7DEF15A834B96792B54208B /* YungNetworkTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YungNetworkTool.debug.xcconfig; sourceTree = "<group>"; };
+		DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E63F367F44FC87833A1792B541781BB7 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		F03984612EB8902DF1EAB06865094873 /* Pods-YungNetworkTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YungNetworkTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F050E695F23E07018551CDB8C2BCB54B /* YungNetworkTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YungNetworkTool-prefix.pch"; sourceTree = "<group>"; };
+		F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3503C0B92D5FA900088EEA97D9EF4DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAC308F41FA519D23524CFC7774BC29 /* Alamofire.framework in Frameworks */,
+				8A4D0C1DEA30A952CBE4A063812C1CE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396F84FF895DD0CAC53E081F346698AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35D5321D1C81FF441855E8B370224D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D77E3DB78950B6DAA36FF76DD60E1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB05A5B39A901C8258D8E90B8816D13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107F7D19F05536C94E049F4FAFB4AB81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA5E0849BDF30236C363A144A9DB5875 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		18C7BDE3C2C6962B7C0BEAA3F0D875D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD816AF241A64C049B37B1F8E1E0653A /* LICENSE */,
+				5D7BE21ABBB39A3DBA46E35B04F6B3F4 /* README.md */,
+				3D92E2A0302FBC05564BA8A2E3C9A2DF /* YungNetworkTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B03B07DFA7C8BB60693AE1DE30731E2 /* Alamofire.framework */,
+				107F7D19F05536C94E049F4FAFB4AB81 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38C8D51A2AD8EC6129F7342CD3A1EF53 /* Pods-YungNetworkTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				135C49340BA8B8051D48A2D6B61FE135 /* Pods-YungNetworkTool_Tests.modulemap */,
+				F03984612EB8902DF1EAB06865094873 /* Pods-YungNetworkTool_Tests-acknowledgements.markdown */,
+				52D10C388D7CF65004ED7D3CAA288372 /* Pods-YungNetworkTool_Tests-acknowledgements.plist */,
+				0D10C471312722856A8EB47F6BE254C9 /* Pods-YungNetworkTool_Tests-dummy.m */,
+				8CC4891F3A914FD46705368B86FA1FD8 /* Pods-YungNetworkTool_Tests-Info.plist */,
+				1D154FACF7BB6CDA48BE5B8A6E48A79F /* Pods-YungNetworkTool_Tests-umbrella.h */,
+				AABEF72C6538D983D6EB3CC3B32B95FA /* Pods-YungNetworkTool_Tests.debug.xcconfig */,
+				4A69CF34CAB2118BFB329541AA224F42 /* Pods-YungNetworkTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-YungNetworkTool_Tests";
+			path = "Target Support Files/Pods-YungNetworkTool_Tests";
+			sourceTree = "<group>";
+		};
+		3B46C1449BDABC35586A3A522299D474 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED0B2F4E345DF4EA2DEE9116138E1D7 /* YungNetworkTool.modulemap */,
+				C90FFBBE908B37EB2EA7760CEC58AB4D /* YungNetworkTool-dummy.m */,
+				85AF69E8609EA8DA2BCF4AAA652CD8AC /* YungNetworkTool-Info.plist */,
+				F050E695F23E07018551CDB8C2BCB54B /* YungNetworkTool-prefix.pch */,
+				4B8AE59AF546A4EAE8996FC6485E67B3 /* YungNetworkTool-umbrella.h */,
+				DBAC9BA1B7DEF15A834B96792B54208B /* YungNetworkTool.debug.xcconfig */,
+				BDA21A1CC8D40C1FA5A76399445658F5 /* YungNetworkTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YungNetworkTool";
+			sourceTree = "<group>";
+		};
+		7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ED047C2109FD8C989F0D93F032AAA29 /* Alamofire.modulemap */,
+				0389D0AFC58E73A075F3F7740CE1D441 /* Alamofire-dummy.m */,
+				A31DDF318E3E03B4DEA2F1B4182A555D /* Alamofire-Info.plist */,
+				5FEB2726D8D5B1A0A657204329BCF4BD /* Alamofire-prefix.pch */,
+				FFE4C558583FF9884EBA9DDF1C6F0DCD /* Alamofire-umbrella.h */,
+				2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */,
+				0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7DCF4B69E36F94C0A70C7E40E020712A /* YungNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				B0BF6CF1A325FEE5AB571BB3F6147671 /* Task.swift */,
+				18C7BDE3C2C6962B7C0BEAA3F0D875D9 /* Pod */,
+				3B46C1449BDABC35586A3A522299D474 /* Support Files */,
+			);
+			name = YungNetworkTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		90FDDC7F5D24472360CA259A8D40AE98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC362FA3C7A87C2E5630BA06D8CB57BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E63F367F44FC87833A1792B541781BB7 /* AFError.swift */,
+				85FC5E8A366EFB3B0CF9816F6A90B258 /* Alamofire.swift */,
+				47D8FC88383C541917CFD5ADA31DD7AB /* DispatchQueue+Alamofire.swift */,
+				616062C81FDAB5C58156D8D00F0FC48D /* MultipartFormData.swift */,
+				7C36DA43AFF8C1CD3C666DACA78B91C2 /* NetworkReachabilityManager.swift */,
+				B86FC9B604FA843EF26A951C43C0CE8B /* Notifications.swift */,
+				F8D7A47A590ED08C21AB24503841C370 /* ParameterEncoding.swift */,
+				2EE101F8BE2F43D16C24A9874C79A94A /* Request.swift */,
+				B06A315E96FC5BCCAB1C5145D4BF1BCF /* Response.swift */,
+				AF15E9B6C2601FD9AD228CA2D657E44B /* ResponseSerialization.swift */,
+				F1DA11279AA1D6557BB10C9936E9B3A3 /* Result.swift */,
+				3D7B86CF47C1835EA00FE7A8B8D5CCC5 /* ServerTrustPolicy.swift */,
+				3EFB0C226D602EC371BECC5BD2CC9370 /* SessionDelegate.swift */,
+				98D3F4F1011789493720361780A1982D /* SessionManager.swift */,
+				A50DCBCED5F02570DDA9386825ACB4CF /* TaskDelegate.swift */,
+				58ACD677FD4B95B260E1B1C656D08B84 /* Timeline.swift */,
+				DF3AE0D4172A0ECD56EBFA08991A7C70 /* Validation.swift */,
+				7D02D4600E8C814A4EF1D8C7FF8FA146 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D6E037ABB87FF734B73566C2D6CB8852 /* Development Pods */,
+				2F2A6FCCD7293377A61DF5D10894ACF2 /* Frameworks */,
+				90FDDC7F5D24472360CA259A8D40AE98 /* Pods */,
+				F03EE597AA33D13A7B31CC23BFB93770 /* Products */,
+				D95ECB347C24D12EA288D73F8C4CAC5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E037ABB87FF734B73566C2D6CB8852 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DCF4B69E36F94C0A70C7E40E020712A /* YungNetworkTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D95ECB347C24D12EA288D73F8C4CAC5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2A21E6402CB2A22398ED1D05A79DFC /* Pods-YungNetworkTool_Example */,
+				38C8D51A2AD8EC6129F7342CD3A1EF53 /* Pods-YungNetworkTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD2A21E6402CB2A22398ED1D05A79DFC /* Pods-YungNetworkTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C4B193BEAB5387A17CC1F2CFEB87DE7B /* Pods-YungNetworkTool_Example.modulemap */,
+				48A57690C9924FE2D4CC4EBC6C68630C /* Pods-YungNetworkTool_Example-acknowledgements.markdown */,
+				6325829207E0962FA064ED48EC035BED /* Pods-YungNetworkTool_Example-acknowledgements.plist */,
+				81E654A928C729789A5D9915741D404A /* Pods-YungNetworkTool_Example-dummy.m */,
+				6C6ECFE33A1DA30B7E7D4535C217258E /* Pods-YungNetworkTool_Example-frameworks.sh */,
+				0C8140509266FADAF55D890AE05FABE5 /* Pods-YungNetworkTool_Example-Info.plist */,
+				0CF9D929D8D4C198D996A1CCE4A159D5 /* Pods-YungNetworkTool_Example-umbrella.h */,
+				BEFC95DCC9087D8884FD052F69094DA9 /* Pods-YungNetworkTool_Example.debug.xcconfig */,
+				4C5778D67EA0DDD70D7C58807F1E1814 /* Pods-YungNetworkTool_Example.release.xcconfig */,
+			);
+			name = "Pods-YungNetworkTool_Example";
+			path = "Target Support Files/Pods-YungNetworkTool_Example";
+			sourceTree = "<group>";
+		};
+		F03EE597AA33D13A7B31CC23BFB93770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				2051260D20A37FA861CEB840BFBFDED2 /* Pods_YungNetworkTool_Example.framework */,
+				600326E55F8B67FE7046C45D672C10D7 /* Pods_YungNetworkTool_Tests.framework */,
+				2A75C90E113A30D79882DDC2B1168B7E /* YungNetworkTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		188CCB89E65D82DC8863E4B22C1C8068 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02692DFEB0B66829861CE2E321EAA0E2 /* Pods-YungNetworkTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B8A9F2ACB00F672A1DDD8C5CA6B84CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8372EE696AB5627A70CE9B4FFCFA6C6F /* YungNetworkTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CA756C989541778C200108CB7F1B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76CA540045F834330B0F5D8503FC82 /* Pods-YungNetworkTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		327F6A6CD646809033E7F38B6D8F0808 /* Pods-YungNetworkTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CC4BF57386BFE30A073D5E33736CF3 /* Build configuration list for PBXNativeTarget "Pods-YungNetworkTool_Example" */;
+			buildPhases = (
+				83CA756C989541778C200108CB7F1B3E /* Headers */,
+				59BF161131EA08659C91B719207AE15A /* Sources */,
+				8D77E3DB78950B6DAA36FF76DD60E1D5 /* Frameworks */,
+				F63CF663BFFC80D6344882A03CE40889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0F5214DAFD2A3B828DE9873978BFF9 /* PBXTargetDependency */,
+				B8B32FCF4C7F6C08E084232B06CC9C13 /* PBXTargetDependency */,
+			);
+			name = "Pods-YungNetworkTool_Example";
+			productName = "Pods-YungNetworkTool_Example";
+			productReference = 2051260D20A37FA861CEB840BFBFDED2 /* Pods_YungNetworkTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4288E349E1CA44405A6179609AA99404 /* Pods-YungNetworkTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0666721F4E5E9EDF0C67BFA94A7F5AE /* Build configuration list for PBXNativeTarget "Pods-YungNetworkTool_Tests" */;
+			buildPhases = (
+				188CCB89E65D82DC8863E4B22C1C8068 /* Headers */,
+				1517BFC0AF948DE928EE57E991B334F9 /* Sources */,
+				396F84FF895DD0CAC53E081F346698AE /* Frameworks */,
+				9E2EA9B2D34126477B68230867C7E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2E0CACFF3D15A349983586A3EB8CDD /* PBXTargetDependency */,
+			);
+			name = "Pods-YungNetworkTool_Tests";
+			productName = "Pods-YungNetworkTool_Tests";
+			productReference = 600326E55F8B67FE7046C45D672C10D7 /* Pods_YungNetworkTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E6A4B1FFE9297DA3BF236D2192F5889 /* YungNetworkTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D956B2EADF277E527D11AC0EE18270E /* Build configuration list for PBXNativeTarget "YungNetworkTool" */;
+			buildPhases = (
+				7B8A9F2ACB00F672A1DDD8C5CA6B84CC /* Headers */,
+				D06FF2B1E81E44CE635ACC878255DB5C /* Sources */,
+				3503C0B92D5FA900088EEA97D9EF4DA9 /* Frameworks */,
+				3017501FC9E4405D820E9C0DCD2405BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99A069A6E9AF619DD755AFD126F885A2 /* PBXTargetDependency */,
+			);
+			name = YungNetworkTool;
+			productName = YungNetworkTool;
+			productReference = 2A75C90E113A30D79882DDC2B1168B7E /* YungNetworkTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */,
+				2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */,
+				090C1D63463ACF622287EFF9D5C9392D /* Frameworks */,
+				473D3E892ABB6C798CFF290644259B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F03EE597AA33D13A7B31CC23BFB93770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				327F6A6CD646809033E7F38B6D8F0808 /* Pods-YungNetworkTool_Example */,
+				4288E349E1CA44405A6179609AA99404 /* Pods-YungNetworkTool_Tests */,
+				7E6A4B1FFE9297DA3BF236D2192F5889 /* YungNetworkTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3017501FC9E4405D820E9C0DCD2405BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2EA9B2D34126477B68230867C7E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63CF663BFFC80D6344882A03CE40889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1517BFC0AF948DE928EE57E991B334F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D10EFC660E6326F643762D537D23B52 /* Pods-YungNetworkTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */,
+				1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */,
+				BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */,
+				D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */,
+				1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */,
+				3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */,
+				132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */,
+				0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */,
+				98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */,
+				D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */,
+				E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */,
+				64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */,
+				F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */,
+				2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */,
+				931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */,
+				AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */,
+				933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */,
+				53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF161131EA08659C91B719207AE15A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85668BB2BDDD11ADFC4DE4E9EA0FAEE9 /* Pods-YungNetworkTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06FF2B1E81E44CE635ACC878255DB5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9ACF34CCAA867927BF8F0FADBDD809 /* Task.swift in Sources */,
+				23FB27CDA8862DF1438EA3D38BDB1A10 /* YungNetworkTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A069A6E9AF619DD755AFD126F885A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = F72EAE89C4E65597192E724AFD1954ED /* PBXContainerItemProxy */;
+		};
+		AB2E0CACFF3D15A349983586A3EB8CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YungNetworkTool_Example";
+			target = 327F6A6CD646809033E7F38B6D8F0808 /* Pods-YungNetworkTool_Example */;
+			targetProxy = 727265A16A9F6558E7549FB2A1DB7B3A /* PBXContainerItemProxy */;
+		};
+		B8B32FCF4C7F6C08E084232B06CC9C13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YungNetworkTool;
+			target = 7E6A4B1FFE9297DA3BF236D2192F5889 /* YungNetworkTool */;
+			targetProxy = 22FF2ED29A6CE3D11C04CA76E3A3253E /* PBXContainerItemProxy */;
+		};
+		CB0F5214DAFD2A3B828DE9873978BFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8103190196D8960F20F76E33F8886D14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		006D4BC77DB679C28339958F22B9C041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAC9BA1B7DEF15A834B96792B54208B /* YungNetworkTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YungNetworkTool/YungNetworkTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YungNetworkTool/YungNetworkTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YungNetworkTool/YungNetworkTool.modulemap";
+				PRODUCT_MODULE_NAME = YungNetworkTool;
+				PRODUCT_NAME = YungNetworkTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F244F9C052FE5DEC47281CA908BD429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5778D67EA0DDD70D7C58807F1E1814 /* Pods-YungNetworkTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungNetworkTool_Example/Pods-YungNetworkTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungNetworkTool_Example/Pods-YungNetworkTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2D5AEE2D682B0D6268F6CF7E4F01742B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A69CF34CAB2118BFB329541AA224F42 /* Pods-YungNetworkTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungNetworkTool_Tests/Pods-YungNetworkTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungNetworkTool_Tests/Pods-YungNetworkTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44B59151631DC83C5C873DC6DF4BB731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFC95DCC9087D8884FD052F69094DA9 /* Pods-YungNetworkTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungNetworkTool_Example/Pods-YungNetworkTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungNetworkTool_Example/Pods-YungNetworkTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6722A989AA5174366122D55C4FDAF4F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABEF72C6538D983D6EB3CC3B32B95FA /* Pods-YungNetworkTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YungNetworkTool_Tests/Pods-YungNetworkTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YungNetworkTool_Tests/Pods-YungNetworkTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A990D4D7A394E906F2DE82D639771CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C96CDEC4805F115B4225E4EBFC020B7 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93AD64353C65D45C0D4197F9ECAD786D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C50F83F93296D01A5B9009365A2671D /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FFD205844E846411974D24135CA582E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA21A1CC8D40C1FA5A76399445658F5 /* YungNetworkTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YungNetworkTool/YungNetworkTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YungNetworkTool/YungNetworkTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YungNetworkTool/YungNetworkTool.modulemap";
+				PRODUCT_MODULE_NAME = YungNetworkTool;
+				PRODUCT_NAME = YungNetworkTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D956B2EADF277E527D11AC0EE18270E /* Build configuration list for PBXNativeTarget "YungNetworkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				006D4BC77DB679C28339958F22B9C041 /* Debug */,
+				FFD205844E846411974D24135CA582E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0666721F4E5E9EDF0C67BFA94A7F5AE /* Build configuration list for PBXNativeTarget "Pods-YungNetworkTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6722A989AA5174366122D55C4FDAF4F9 /* Debug */,
+				2D5AEE2D682B0D6268F6CF7E4F01742B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CC4BF57386BFE30A073D5E33736CF3 /* Build configuration list for PBXNativeTarget "Pods-YungNetworkTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B59151631DC83C5C873DC6DF4BB731 /* Debug */,
+				0F244F9C052FE5DEC47281CA908BD429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A5194ABAF7A4780609E0E581DA6B54 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93AD64353C65D45C0D4197F9ECAD786D /* Debug */,
+				7A990D4D7A394E906F2DE82D639771CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
