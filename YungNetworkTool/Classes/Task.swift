@@ -20,7 +20,7 @@ public protocol TaskParameterEncoding:ParameterEncoding {
 
 open class Task<TaskType> {
     
-    enum InterruptType {
+    public enum InterruptType {
         case manual
         case error(_ error: Error)
         case statusCode(_ statusCode: Int)
@@ -39,25 +39,25 @@ open class Task<TaskType> {
     }
     
     
-    let url:String
+    public let url:String
     
-    let method:TaskHTTPMethod
+    public let method:TaskHTTPMethod
     
-    var parameters:TaskParameters?
+    public var parameters:TaskParameters?
     
-    let encoding:ParameterEncoding
+    public let encoding:ParameterEncoding
     
-    var headers:TaskHTTPHeaders?
+    public var headers:TaskHTTPHeaders?
 
-    private var request:Request?
+    public var request:Request?
     
-    private let AF = SessionManager.default
-
-    init(url:String,
+    public let AF = SessionManager.default
+    
+    public init(url:String,
          method:TaskHTTPMethod = .get,
-         parameters:TaskParameters?,
+         parameters:TaskParameters? = nil,
          encoding:ParameterEncoding = URLEncoding.default,
-         headers:TaskHTTPHeaders?) {
+         headers:TaskHTTPHeaders? = nil) {
         self.url = url
         self.method = method
         self.parameters = parameters
@@ -65,23 +65,23 @@ open class Task<TaskType> {
         self.headers = headers
     }
     
-    func resume() {
+    public func resume() {
+        if request == nil {
+            request = create()
+        }
         request?.resume()
     }
     
-    func suspend() {
+    public func suspend() {
         request?.suspend()
     }
     
-    func cancel() {
+    public func cancel() {
         request?.cancel()
     }
     
-    private func createRequest() {
+    func create() ->Request {
         let method = HTTPMethod(rawValue: self.method.rawValue) ?? HTTPMethod.get
-        request = AF.request(self.url, method: method, parameters: self.parameters, encoding: self.encoding, headers: self.headers)
-//        request?.responseJSON(completionHandler: { (json) in
-//
-//        })
+        return AF.request(self.url, method: method, parameters: self.parameters, encoding: self.encoding, headers: self.headers)
     }
 }
