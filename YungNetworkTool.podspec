@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YungNetworkTool'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of YungNetworkTool.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/2252055382@qq.com/YungNetworkTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'YungNetworkTool/Classes/**/*'
   
