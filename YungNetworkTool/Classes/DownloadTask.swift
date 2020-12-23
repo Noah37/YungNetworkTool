@@ -14,7 +14,7 @@ public typealias TaskResultHandler = (Data?, Error?)->Void
 
 public class DownloadTask: Task<DownloadTask> {
     
-    public var destinationURL:URL?
+    public var destinationURL:URL? { didSet { createPath() } }
     
     public var fileName:String { return destinationURL?.lastPathComponent ?? (url as NSString).lastPathComponent }
     
@@ -37,16 +37,13 @@ public class DownloadTask: Task<DownloadTask> {
         didSet { downloadResult(closure: self.resultHandler) }
     }
     
-    public var responseData:Data? { return response?.resumeData }
+    public var responseData:Data? { return response?.value }
     
     private var response:DownloadResponse<Data>?
 
     override public func resume() {
         super.resume()
         guard let req = request as? DownloadRequest else { return }
-//        req.responseData { (responseData) in
-//            self.response = responseData
-//        }
         req.resume()
     }
     
@@ -55,12 +52,12 @@ public class DownloadTask: Task<DownloadTask> {
         
         let suggestDownloadFileDestination:DownloadRequest.DownloadFileDestination = { [unowned self] (url, response) in
             if let desURL = self.destinationURL {
-                return (desURL, [])
+                return (desURL, [.removePreviousFile, .createIntermediateDirectories])
             }
             let directoryURLs = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
 
             if !directoryURLs.isEmpty {
-                return (directoryURLs[0].appendingPathComponent(response.suggestedFilename!), [])
+                return (directoryURLs[0].appendingPathComponent(response.suggestedFilename!), [.removePreviousFile, .createIntermediateDirectories])
             }
             return (url, [])
         }
@@ -79,6 +76,16 @@ public class DownloadTask: Task<DownloadTask> {
         req.responseData { (responseData) in
             self.response = responseData
             resultHandler(responseData.value, responseData.error)
+        }
+    }
+    
+    private func createPath() {
+        guard let desURL = destinationURL else { return }
+        let path = desURL.path
+        let isDirectory:UnsafeMutablePointer<ObjCBool> = UnsafeMutablePointer.allocate(capacity: 1)
+        if !FileManager.default.fileExists(atPath: path, isDirectory: isDirectory) {
+            let lastURL = desURL.deletingLastPathComponent()
+            try? FileManager.default.createDirectory(at: lastURL, withIntermediateDirectories: true, attributes: [:])
         }
     }
 }
