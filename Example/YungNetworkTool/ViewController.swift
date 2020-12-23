@@ -21,15 +21,22 @@ class ViewController: UIViewController {
             filePath =  directoryURLs[0].appendingPathComponent("files").appendingPathComponent(task.fileName).path
         }
         task.destinationURL = URL(fileURLWithPath: filePath)
-        task.resume()
+//        task.resume()
         task.startRequestsImmediately = false
         task.progressHandler = { progress in
             print("当前下载进度为: \(String(format: "%.2f", Double(progress.completedUnitCount)/Double(progress.totalUnitCount) * 100))%")
         }
-        task.resultHandler = { (data, error) in
+//        task.resultHandler = { (data, error) in
+//            print(data)
+//            print(error)
+//        }
+        
+        let dataTask = DataTask(url: "https://www.baidu.com/")
+        dataTask.resultHandler = { (data,error) in
             print(data)
             print(error)
         }
+        dataTask.resume()
     }
 
     override func didReceiveMemoryWarning() {

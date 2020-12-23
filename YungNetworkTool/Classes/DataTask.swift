@@ -20,6 +20,12 @@ open class DataTask: Task<DataTask> {
     
     override public func resume() {
         super.resume()
+        guard let resultClosure = resultHandler else { return }
+        guard let req = request as? DataRequest else { return }
+        req.responseData { [weak self] (responseData) in
+            self?.response = responseData
+            resultClosure(responseData.value, responseData.error)
+        }
     }
     
     private func dataResult(closure:TaskResultHandler?) {
@@ -29,5 +35,10 @@ open class DataTask: Task<DataTask> {
             self?.response = responseData
             resultHandler(responseData.value, responseData.error)
         }
+    }
+    
+    override func create() -> Request {
+        let method = HTTPMethod(rawValue: self.method.rawValue) ?? HTTPMethod.get
+        return AF.request(url, method: method, parameters: parameters, encoding: encoding, headers: headers)
     }
 }
